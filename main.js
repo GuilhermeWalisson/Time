@@ -164,38 +164,3 @@ document.getElementById('am').classList.add("time_night")
  ano_id.innerHTML = ano
 am.innerHTML = ampm
 });
-
-
-/*
-function teste() {
-  
-  //Ver mais no site: Developer Monzila.
-  
-const myStorage = localStorage
-  
-myStorage.setItem('chave', 'jerry');
-
-
-console.log(myStorage.chave)
-}
-
-teste()
-*/
-
-
-const inp = document.getElementById('text_form')
-const inp_t = document.getElementById('text_t')
-const alertt = document.getElementById('alert')
-const boxx = document.getElementById('box')
-
-  var storage = localStorage;
-  
- 
- /* 
- //codigo todo cagado
- 
-function loader(load) {
-       (".loader").fadeOut();
-       load("#preloder").delay(200).fadeOut("slow");
- };
-*/
